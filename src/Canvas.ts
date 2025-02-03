@@ -166,7 +166,7 @@ export class Canvas {
  * var pixelRatio = layer.getCanvas.pixelRatio();
  *
  * // set
- * layer.getCanvas().pixelRatio(3);
+ * layer.getCanvas().setPixelRatio(3);
  */
 Factory.addGetterSetter(Canvas, 'pixelRatio', undefined, getNumberValidator());
 
